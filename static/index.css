@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    background-color: hotpink;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+    gap: 30px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: center;
+    gap: 30px;
+    background-color: gold;
+    align-items: center;
+}
