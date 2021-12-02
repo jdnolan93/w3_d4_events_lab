@@ -11,6 +11,7 @@
         <p>{{event.guest_count}}</p>
         <p>{{event.location}}</p>
         <p>{{event.description}}</p>
+        <p>{{"Recurring" if event.recurring(events) == True else "One time event"}}</p>
     {% endfor %}
 
     <h2>Add Event</h2>
