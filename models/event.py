@@ -6,3 +6,5 @@ class Event():
         self.guest_count = guest_count
         self.location = location
         self.description = description
+
+    
